@@ -1,0 +1,14 @@
+<div class="row">
+  {{ range site.Data.members }}
+  <div class="col-12 col-md-6 col-lg-4 mb-4">
+    <div class="card h-100">
+      {{ with .photo }}<img class="card-img-top" src="{{ . }}" alt="{{ $.name }}">{{ end }}
+      <div class="card-body">
+        <h5 class="card-title">{{ .name }}</h5>
+        <p class="card-text">{{ .role }}</p>
+        {{ with .email }}<a href="mailto:{{ . }}">{{ . }}</a>{{ end }}
+      </div>
+    </div>
+  </div>
+  {{ end }}
+</div>

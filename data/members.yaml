@@ -1,0 +1,9 @@
+- name: "홍길동"
+  role: "PhD Student"
+  email: "gildong@example.com"
+  photo: "/images/members/gildong.jpg"
+
+- name: "김연세"
+  role: "Postdoc"
+  email: "yonsei@example.com"
+  photo: "/images/members/yonsei.jpg"
