@@ -1,0 +1,151 @@
+first_and_corresponding:
+  description: "* Co-first authorship   # Corresponding authorship"
+  items:
+    - year: 2025
+      title: "Blood-Based Single-Cell and Bulk RNA sequencing Identifies CAD-Driven CD4+T Cell Dysfunction in Aggressive Small Clear Cell Renal Carcinoma"
+      authors: "Eunchae Kim*, Jee Soo Park*, Seol Song, Se-eun Han, Byungjin Hwang#, Won Sik Ham#"
+      journal: "International Journal of Surgery"
+      details: "In revision."
+      doi_url: ""
+    - year: 2025
+      title: "Paired snRNA-seq and scRNA-seq analysis of MASLD patients to identify early-stage markers for disease progression"
+      authors: "Suebin Park*, Su-Hyeon Lee, Se-eun Han, Beom Kyung Kim#, Byungjin Hwang#"
+      journal: "Hepatology Communications"
+      details: "2025."
+      doi_url: ""
+    - year: 2025
+      title: "Integrated single-cell multiomics analysis reveals the signatures of brain aging in mice"
+      authors: "Se-eun Han*, Hyunjeong Kim*, Jieun Song, Dabin Song, Soyeon Cho, Changsoo Kim, Eosu Kim#, Byungjin Hwang#"
+      journal: "Aging Cell"
+      details: "In revision."
+      doi_url: ""
+    - year: 2025
+      title: "Integrative Single-Cell RNA-seq and TCR Repertoire Analysis Reveals Distinct Immunological Features of Acute Liver Allograft Rejection"
+      authors: "Su-Hyeon Lee*, Deok-Gie Kim*, Yuri Cho, Eun-Ki Min, Jae Geun Lee, Myoung Soo Kim, Suebin Park, Byungjin Hwang#, Dong Jin Joo#"
+      journal: "Genome Medicine"
+      details: "In revision."
+      doi_url: ""
+    - year: 2025
+      title: "SCITO-seq2: Ultra-high-throughput single-cell transcriptome and epitope sequencing"
+      authors: "Su-Hyeon Lee*, Bo-Yeong Jin*, Cho-Rong Lee, Doo Ri Kim, Areum Shin, Sung-Gyoo Park, Yae-Jean Kim, Seong Heon Kim, Murim Choi#, Byungjin Hwang#"
+      journal: "Genome Biology"
+      details: "In revision."
+      doi_url: ""
+
+    - year: 2024
+      title: "Multiplexed multi-modal single cell technologies: From observation to perturbation analysis"
+      authors: "Su-Hyeon Lee, Junha Park, Byungjin Hwang#"
+      journal: "Molecules and Cells"
+      details: "2024."
+      doi_url: ""
+    - year: 2024
+      title: "T-Cell Dynamics Predicts Prognosis of Patients with Hepatocellular Carcinoma Receiving Atezolizumab Plus Bevacizumab"
+      authors: "Hye Won Lee*, Suebin Park*, Hye Jung Park, Kyung Joo Cho, Do Young Kim#, Byungjin Hwang#, Jun Yong Park"
+      journal: "Int. J. Mol. Sci."
+      details: "2024."
+      doi_url: "https://doi.org/10.3390/ijms252010958"
+
+    - year: 2021
+      title: "SCITO-seq: single-cell combinatorial indexed cytometry sequencing"
+      authors: "Byungjin Hwang*, David S. Lee*, Whitney Tamaki, Yang Sun, Anton Ogorodnikov, George Hartoularos, Aidan Winters, Bertrand Yeung, Kristopher L. Nazor, Yun S. Song, Eric D. Chow, Matthew H. Spitzer, Chun Jimmie Ye#"
+      journal: "Nature Methods"
+      details: "2021."
+      doi_url: "https://doi.org/10.1038/s41592-021-01222-3"
+
+    - year: 2019
+      title: "Lineage tracing using a Cas9-deaminase barcoding system targeting endogenous L1 elements"
+      authors: "Byungjin Hwang*, Wookjae Lee*, Soo-Young Yum*, Yujin Jeon, Namjin Cho, Goo Jang#, Duhee Bang#"
+      journal: "Nature Communications"
+      details: "2019."
+      doi_url: "https://doi.org/10.1038/s41467-019-09203-z"
+    - year: 2019
+      title: "Facilitated large-scale sequence validation platform using Tn5-tagmented cell lysates"
+      authors: "Byungjin Hwang*, Sunghoon Heo*, Namjin Cho, Duhee Bang#"
+      journal: "ACS Synthetic Biology"
+      details: "2019."
+      doi_url: "https://doi.org/10.1021/acssynbio.8b00482"
+
+    - year: 2018
+      title: "Single-cell RNA sequencing technologies and bioinformatics pipelines"
+      authors: "Byungjin Hwang*, Ji Hyun Lee#, Duhee Bang#"
+      journal: "Experimental Molecular Medicine"
+      details: "2018. (Citation >1,500)"
+      doi_url: "https://doi.org/10.1038/s12276-018-0071-8"
+
+    - year: 2017
+      title: "Asymmetrical barcode adapter-assisted recovery of duplicate reads and error correction strategy to detect rare mutations in circulating tumor DNA"
+      authors: "Jinwoo Ahn*, Byungjin Hwang*, Ha Young Kim*, Hoon Jang, Hwang-Phill Kim, Sae-Won Han, Tae-You Kim, Ji Hyun Lee#, Duhee Bang#"
+      journal: "Scientific Reports"
+      details: "2017."
+      doi_url: "https://doi.org/10.1038/srep46678"
+
+    - year: 2016
+      title: "Genomic Profile of Chronic Lymphocytic Leukemia in Korea Identified by Targeted Sequencing"
+      authors: "Jung-Ah Kim*, Byungjin Hwang*, Si Nae Park, Sunghoon Huh, Kyongok Im, Sungbin Choi, Hye Yoon Chung, JooRyung Huh, Eul-Ju Seo, Je-Hwan Lee, Duhee Bang#, Dong Soon Lee#"
+      journal: "PLOS ONE"
+      details: "2016."
+      doi_url: "https://doi.org/10.1371/journal.pone.0167641"
+    - year: 2016
+      title: "Toward a new paradigm of DNA writing using a massively parallel sequencing platform and degenerate oligonucleotide"
+      authors: "Byungjin Hwang, Duhee Bang#"
+      journal: "Scientific Reports"
+      details: "2016."
+      doi_url: "https://doi.org/10.1038/srep37176"
+
+    - year: 2015
+      title: "De novo assembly and next-generation sequencing to analyze full-length gene variants from codon-barcoded libraries"
+      authors: "Namjin Cho*, Byungjin Hwang*, Jung-Ki Yoon*, Sangun Park*, Joongoo Lee*, Han Na Seo, Jeewon Lee, Sunghoon Huh, Jinsoo Chung, Duhee Bang#"
+      journal: "Nature Communications"
+      details: "2015."
+      doi_url: "https://doi.org/10.1038/ncomms9351"
+
+contributing_authors:
+  items:
+    - year: 2025
+      title: "Exercise alters transcriptional profiles of senescence and gut barrier integrity in intestinal crypts of aging mice"
+      authors: "Jeon H, Lee S, Kim Y, ... Han SE, Hwang B, Kim JW, Oh CM*, Fang S*"
+      journal: "npj Aging"
+      details: "2025."
+      doi_url: ""
+    - year: 2023
+      title: "Mitigation of chromosome loss in clinical CRISPR-Cas9-engineered T cells"
+      authors: "Connor A. Tsuchida, ... Byungjin Hwang, ... Chun Jimmie Ye#, Jennifer A. Doudna#"
+      journal: "Cell"
+      details: "2023."
+      doi_url: ""
+    - year: 2022
+      title: "Pooled screening of CAR T cells identifies diverse immune signaling domains for next-generation immunotherapies"
+      authors: "Daniel B. Goodman, ... Byungjin Hwang, David Lee, ... Kole T. Roybal#"
+      journal: "Science Translational Medicine"
+      details: "2022."
+      doi_url: "https://doi.org/10.1126/scitranslmed.abm1463"
+    - year: 2018
+      title: "CRISPR-Cap: Multiplexed double-stranded DNA enrichment based on the CRISPR system"
+      authors: "Lee J, Lim H, Jang H, Hwang B, Lee J, Cho J, Lee JH#, Bang D#"
+      journal: "Nucleic Acids Research"
+      details: "2018."
+      doi_url: "https://doi.org/10.1093/nar/gky820"
+    - year: 2018
+      title: "High-throughput construction of multiple cas9 gene variants assembly of high-depth tiled and sequence-verified oligonucleotides"
+      authors: "Cho N, Seo HN, ... Hwang B, ... Kwon S#, Bang D#"
+      journal: "Nucleic Acids Research"
+      details: "2018."
+      doi_url: "https://doi.org/10.1093/nar/gky112"
+    - year: 2017
+      title: "The high frequency of the U2AF1 S34Y mutation and its association with isolated trisomy 8 in myelodysplastic syndrome in Asians"
+      authors: "Kim SY, Kim K, Hwang B, ... Bang D#, Lee DS#"
+      journal: "Leukemia Research"
+      details: "2017."
+      doi_url: "https://doi.org/10.1016/j.leukres.2017.09.001"
+    - year: 2017
+      title: "Somatotroph-Specific Aip-Deficient Mice Display Pretumorigenic Alterations in Cell-Cycle Signaling"
+      authors: "Gillam MP, Ku CR, Lee YJ, Kim J, Kim SH, Lee SJ, Hwang B, Koo JH, Kineman RD, Kiyokawa H, Lee EJ#"
+      journal: "J. Endocr. Soc."
+      details: "2017."
+      doi_url: "https://doi.org/10.1210/js.2016-1004"
+    - year: 2015
+      title: "Genetic Testing of Korean Familial Hypercholesterolemia Using Whole-Exome Sequencing"
+      authors: "Han SM, Hwang B, ... Bang D#, Lee JH#, Lee SH#"
+      journal: "PLOS ONE"
+      details: "2015."
+      doi_url: "https://doi.org/10.1371/journal.pone.0126706"

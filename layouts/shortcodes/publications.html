@@ -1,0 +1,47 @@
+<div class="container">
+  <h2 class="section-title">Publications</h2>
+
+  {{/* First & Corresponding Authors */}}
+  {{ with site.Data.publications.first_and_corresponding }}
+    <h3 style="color: #87CEEB; margin-bottom: 2rem;">First &amp; Corresponding Authors</h3>
+    {{ with .description }}
+      <p style="color: rgba(255, 255, 255, 0.7); font-size: 0.9rem; margin-bottom: 2rem;">{{ . }}</p>
+    {{ end }}
+
+    <div class="publication-list">
+      {{ range .items }}
+        <div class="publication-item">
+          <div class="publication-year">{{ .year }}</div>
+          <p>
+            <strong>{{ .title }}</strong><br>
+            {{ .authors }}<br>
+            <em>{{ .journal }}</em>{{ if .details }}. {{ .details }}{{ end }}
+            {{ with .doi_url }}
+              <a href="{{ . }}" target="_blank">DOI</a>
+            {{ end }}
+          </p>
+        </div>
+      {{ end }}
+    </div>
+  {{ end }}
+
+  {{/* Contributing Authors */}}
+  {{ with site.Data.publications.contributing_authors }}
+    <h3 style="color: #87CEEB; margin: 3rem 0 2rem;">Contributing Authors</h3>
+    <div class="publication-list">
+      {{ range .items }}
+        <div class="publication-item">
+          <div class="publication-year">{{ .year }}</div>
+          <p>
+            <strong>{{ .title }}</strong><br>
+            {{ .authors }}<br>
+            <em>{{ .journal }}</em>{{ if .details }}. {{ .details }}{{ end }}
+            {{ with .doi_url }}
+              <a href="{{ . }}" target="_blank">DOI</a>
+            {{ end }}
+          </p>
+        </div>
+      {{ end }}
+    </div>
+  {{ end }}
+</div>

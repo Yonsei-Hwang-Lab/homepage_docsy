@@ -1,14 +1,124 @@
-<div class="row">
-  {{ range site.Data.members }}
-  <div class="col-12 col-md-6 col-lg-4 mb-4">
-    <div class="card h-100">
-      {{ with .photo }}<img class="card-img-top" src="{{ . }}" alt="{{ $.name }}">{{ end }}
-      <div class="card-body">
-        <h5 class="card-title">{{ .name }}</h5>
-        <p class="card-text">{{ .role }}</p>
-        {{ with .email }}<a href="mailto:{{ . }}">{{ . }}</a>{{ end }}
+<div class="container">
+  <h2 class="section-title">Members</h2>
+
+  {{/* Principal Investigator */}}
+  {{ with site.Data.members.principal_investigator }}
+    <h3 class="member-category">Principal Investigator</h3>
+    <div class="members-grid" style="max-width: 400px; margin: 0 auto 3rem;">
+      <div class="member-card">
+        <div class="member-photo">
+          <img src="{{ .photo }}">
+        </div>
+        <div class="member-name">{{ .name_en }}</div>
+        <div class="member-role">{{ .position }} ({{ .period }})</div>
+        <div class="member-role">{{ .affiliation }}</div>
+        <div class="member-email">
+          {{ with .email }}
+            <a href="mailto:{{ . }}">{{ . }}</a><br>
+          {{ end }}
+          {{ with .office }}
+            Office: {{ . }}
+          {{ end }}
+        </div>
+
+        {{ with .education }}
+          <div style="margin-top: 1rem; font-size: 0.8rem; color: rgba(255, 255, 255, 0.7); text-align: left;">
+            <strong>Education</strong><br>
+            {{ range . }}
+              • {{ . }}<br>
+            {{ end }}
+          </div>
+        {{ end }}
       </div>
     </div>
-  </div>
+  {{ end }}
+
+  {{/* Postdoctoral Scholars */}}
+  {{ with site.Data.members.postdoctoral_scholars }}
+    <h3 class="member-category">Postdoctoral Scholars</h3>
+    <div class="members-grid">
+      {{ range $i, $m := . }}
+        <div class="member-card">
+          <div class="member-photo">
+            <img src="{{ $m.photo }}">
+          </div>
+          <div class="member-name">
+            {{ $m.name_en }}{{ if $m.name_ko }} ({{ $m.name_ko }}){{ end }}
+          </div>
+          <div class="member-role">{{ $m.position }}</div>
+          <div class="member-role">{{ $m.affiliation }}{{ if $m.period }} ({{ $m.period }}){{ end }}</div>
+        </div>
+      {{ end }}
+    </div>
+  {{ end }}
+
+  {{/* Graduate Students */}}
+  {{ with site.Data.members.graduate_students }}
+    <h3 class="member-category">Graduate Students</h3>
+    <div class="members-grid">
+      {{ range $i, $m := . }}
+        <div class="member-card">
+          <div class="member-photo">
+            <img src="{{ $m.photo }}">
+          </div>
+          <div class="member-name">
+            {{ $m.name_en }}{{ if $m.name_ko }} ({{ $m.name_ko }}){{ end }}
+          </div>
+          <div class="member-role">{{ $m.position }}</div>
+          <div class="member-role">{{ $m.affiliation }}{{ if $m.period }} ({{ $m.period }}){{ end }}</div>
+        </div>
+      {{ end }}
+    </div>
+  {{ end }}
+
+  {{/* Part-time Students */}}
+  {{ with site.Data.members.part_time_students }}
+    <h3 class="member-category">Part-time Students</h3>
+    <div class="members-grid">
+      {{ range $i, $m := . }}
+        <div class="member-card">
+          <div class="member-photo">
+            <img src="{{ $m.photo }}">
+          </div>
+          <div class="member-name">
+            {{ $m.name_en }}{{ if $m.name_ko }} ({{ $m.name_ko }}){{ end }}
+          </div>
+          <div class="member-role">{{ $m.position }}</div>
+          {{ if or $m.affiliation $m.period }}
+            <div class="member-role">
+              {{ $m.affiliation }}{{ if $m.period }}{{ if $m.affiliation }}, {{ end }}{{ $m.period }}{{ end }}
+            </div>
+          {{ end }}
+        </div>
+      {{ end }}
+    </div>
+  {{ end }}
+
+  {{/* Alumni */}}
+  {{ with site.Data.members.alumni }}
+    <h3 class="member-category">Alumni</h3>
+    <div style="max-width: 800px; margin: 0 auto; background: rgba(255, 255, 255, 0.1); padding: 2rem; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.2); border: 1px solid rgba(255, 255, 255, 0.2); backdrop-filter: blur(10px);">
+      {{ with .ms_graduates }}
+        <div style="margin-bottom: 1.5rem;">
+          <strong style="color: #87CEEB;">M.S. Graduate</strong>
+          <p style="color: rgba(255, 255, 255, 0.8); margin-top: 0.5rem; line-height: 2;">
+            {{ range . }}
+              {{ .name }}{{ if .next_affiliation }} → {{ .next_affiliation }}{{ end }}<br>
+            {{ end }}
+          </p>
+        </div>
+      {{ end }}
+
+      {{ with .undergraduate_alumni }}
+        <div>
+          <strong style="color: #87CEEB;">Undergraduate Alumni</strong>
+          <div style="color: rgba(255, 255, 255, 0.8); margin-top: 0.5rem; line-height: 2;">
+            {{ range . }}
+              {{ .name }}{{ if .note }} ({{ .note }}){{ end }}<br>
+            {{ end }}
+          </div>
+        </div>
+      {{ end }}
+    </div>
   {{ end }}
 </div>

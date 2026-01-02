@@ -1,0 +1,23 @@
+<div class="container">
+  <h2 class="section-title">Lab Photos</h2>
+
+  {{ $data := site.Data.photos }}
+  {{ $photos := sort $data.photos "order" "asc" }}
+
+  <div class="photos-grid">
+    {{ range $photos }}
+      <div class="photo-item">
+        <img src="{{ .image }}" alt="{{ .alt }}">
+        <div class="photo-caption">{{ .caption }}</div>
+      </div>
+    {{ end }}
+  </div>
+
+  {{ with $data.instagram }}
+    <p style="text-align: center; margin-top: 2rem;">
+      <a href="{{ .url }}" target="_blank" style="color: #87CEEB; text-decoration: none; font-weight: bold;">
+        📸 More photos on Instagram {{ .handle }}
+      </a>
+    </p>
+  {{ end }}
+</div>

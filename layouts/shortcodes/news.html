@@ -1,0 +1,32 @@
+{{- /* data/news.yaml의 news 리스트 가져오기 */ -}}
+{{- $items := site.Data.news.news -}}
+{{- $limit := .Get "limit" | default 0 -}}
+{{- if gt $limit 0 }}
+  {{- $items = first $limit $items -}}
+{{- end }}
+
+{{- if $items }}
+   <div class="row news-onecol">
+    {{- range $item := $items }}
+      <div class="col-12 MB-4">
+        <div class="td-box td-box--gray h-100 p-4">
+          {{- with $item.title }}
+            <h4 class="mb-2">{{ . }}</h4>
+          {{- end }}
+
+          {{- with $item.date }}
+            <p class="text-muted small mb-2">{{ . }}</p>
+          {{- end }}
+
+          {{- with $item.body }}
+            <div class="news-body">
+              {{ . | markdownify }}
+            </div>
+          {{- end }}
+        </div>
+      </div>
+    {{- end }}
+  </div>
+{{- else }}
+  {{/* news가 없을 때는 아무것도 안 그리거나, placeholder 출력 가능 */}}
+{{- end }}

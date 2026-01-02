@@ -1,0 +1,48 @@
+photos:
+  - year: 2025
+    image: "/images/lab_photos/2025_ksbmb_emm.jpg"
+    alt: "2025 KSBMB-EMM"
+    caption: "2025 KSBMB-EMM winter conference @Hongcheon"
+    event: "KSBMB-EMM winter conference"
+    location: "Hongcheon"
+    order: 1
+
+  - year: 2025
+    image: "/images/lab_photos/2025_faobmb.jpg"
+    alt: "2025 FAOBMB"
+    caption: "2025 FAOBMB @Busan"
+    event: "FAOBMB"
+    location: "Busan"
+    order: 2
+
+  - year: 2025
+    image: "/images/lab_photos/2025_busan_student.jpg"
+    alt: "2025 Busan Student"
+    caption: "2025 FAOBMB @Busan"
+    event: "FAOBMB"
+    location: "Busan"
+    order: 3
+
+  - year: 2025
+    image: "/images/lab_photos/2025_prof.jpg"
+    alt: "2025 Professor"
+    caption: "2025 Teacher's Day @May"
+    event: "Teacher's Day"
+    location: ""
+    order: 4
+
+  - year: 2025
+    image: "/images/lab_photos/2025_graduation.jpg"
+    alt: "2025 Graduation"
+    caption: "2025 Graduation Ceremony (Summer)"
+    event: "Graduation Ceremony"
+    location: ""
+    order: 5
+
+  - year: 2025
+    image: "/images/lab_photos/2025_bioinfo.jpg"
+    alt: "2025 BIOINFO"
+    caption: "2025 BIOINFO @Suwon"
+    event: "BIOINFO"
+    location: "Suwon"
+    order: 6

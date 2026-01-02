@@ -5,13 +5,32 @@ menu:
     weight: 60
 ---
 
-## Contact
 
-**Byungjin Hwang, M.D., Ph.D.**  
-Department of XXX  
-Yonsei University College of Medicine  
+<div class="container">
 
-- Email: hwang@example.com
-- Address: ...
+<h2 class="section-title">Contact</h2>
 
-(원하면 Google Maps iframe을 이 페이지에 HTML로 넣어도 됨)
+  <div class="contact-info">
+
+  <div class="contact-item">
+  <h3>📍 Address</h3>
+  <p>
+  연세대학교 의과대학<br>
+  서울특별시 서대문구 연세로 50-1<br>
+  에비슨의생명연구센터 507호<br>
+  </p>
+  <br>
+  </div>
+
+  <div class="contact-item">
+  <h3>📧 Email</h3>
+  <p>bjhwang113 at yuhs.ac</p><br>
+  </div>
+
+  <div class="contact-item">
+  <h3>📞 Phone (Lab) </h3>
+  <p>02-2228-0885</p><br>
+  </div>
+
+  </div>
+</div>
