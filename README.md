@@ -11,7 +11,7 @@
 ```
 ├── .github/
 ├── content/
-│    ├── en/   // 실제 사이트
+│    ├── en/   // 각 페이지별 실제 데이터
 ├── data/
 │    ├── members.yaml // member 의 내용
 │    ├── news.yaml // news, 최신 10개만 표시됨
@@ -27,12 +27,13 @@
 └── README.md
 
 ```
+* `data/` 내의 yaml 에 각 entry 를 추가해 주시면 됩니다.
+
 ## other references
 
-[Docsy user guide]: https://docsy.dev/docs
-[Docsy]: https://github.com/google/docsy
-[example.docsy.dev]: https://example.docsy.dev
-[Hugo theme module]:
+- Docsy user guide: https://docsy.dev/docs
+- Docsy: https://github.com/google/docsy
+- Hugo theme module:
   https://gohugo.io/hugo-modules/use-modules/#use-a-module-for-a-theme
-[Netlify]: https://netlify.com
-[Docker Compose documentation]: https://docs.docker.com/compose/gettingstarted/
+- Netlify: https://netlify.com
+- Docker Compose documentation: https://docs.docker.com/compose/gettingstarted/
