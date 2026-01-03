@@ -87,6 +87,7 @@ title: Hwang Lab
     muted
     loop
     playsinline
+    webkit-playsinline
     poster="/images/featured-background.jpg"
     aria-hidden="true"
   >
