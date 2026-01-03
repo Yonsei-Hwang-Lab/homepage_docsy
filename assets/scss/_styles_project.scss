@@ -8,8 +8,8 @@ https://www.docsy.dev/docs/content/lookandfeel/#project-style-files
 @import 'td/code-dark';
 @import 'td/gcs-search-dark';
 
-body {
-  padding-top: 6rem;
+.td-main {
+  padding-top: 4rem !important;   // 원하는 값으로 변경 가능
 }
 
 .td-navbar {

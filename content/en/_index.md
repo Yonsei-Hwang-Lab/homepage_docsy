@@ -2,6 +2,9 @@
 title: Hwang Lab
 ---
 <style>
+  .td-main {
+  padding-top: 0rem !important;   // 원하는 값으로 변경 가능
+  }
   .td-heading-self-link {
     display: none;
   }
@@ -59,9 +62,9 @@ title: Hwang Lab
   }
   /* 뉴스 카드 스타일 커스텀 */
   .news-onecol .td-box {
-    background: rgba(43, 43, 43, 0.23); /* 반투명 화이트 */
-    border: 1px solid rgba(0, 0, 0, 0.3); /* 얇은 테두리 */
-    border-radius: 6px;                    /* 부드러운 모서리 */
+    background: rgba(129, 129, 129, 0.23); /* 반투명 화이트 */
+    border: 2px solid rgba(0, 0, 0, 0.52); /* 얇은 테두리 */
+    border-radius: 10px;                    /* 부드러운 모서리 */
     backdrop-filter: blur(4px);             /* 유리 느낌 (선택) */
   }
 

@@ -4,6 +4,7 @@ menu:
   main:
     weight: 20
 ---
+{{< section_container >}}
 
 ## Research Areas
 
@@ -19,3 +20,4 @@ We deploy various combinatorial indexing strategies (sci-RNA-seq, XYZeq, Seq-Sco
 
 We use CRISPR a/i/KO systems to edit primary cells (e.g., human T cells) and cancer cells with state-of-the-art editing technology, focusing on immunology and immuno-oncology. Combined with SCITO-seq, we develop genome-scale single-cell CRISPR editing platforms to evaluate functional variants identified through single-cell and spatial multiomics analyses.
 
+{{< /section_container >}}
