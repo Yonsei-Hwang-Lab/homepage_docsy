@@ -64,11 +64,6 @@ https://www.docsy.dev/docs/content/lookandfeel/#project-style-files
   .member-photo { --photo-size: 160px; }
 }
 
-/* (선택) hover zoom-in 효과 */
-.member-card:hover .member-photo img {
-  transform: scale(1.06);
-  transition: transform .25s ease;
-}
 
 // 브랜드 컬러
 $primary:   #00143a;   // Yonsei 느낌의 딥 네이비 (기존 nav 배경)
