@@ -1,4 +1,4 @@
-baseURL: https://example.docsy.dev
+baseURL: https://hwanglabyonsei.net/
 title: Hwang Lab
 
 # cSpell:ignore goldmark github hugo readingtime docsy subdir lastmod pygments linenos catmullrom norsk gu
@@ -101,7 +101,7 @@ params:
 
   # A link to latest version of the docs. Used in the "version-banner" partial to
   # point people to the main doc site.
-  url_latest_version: https://example.com
+  # url_latest_version: https://example.com
 
   # Repository configuration (URLs for in-page links to opening issues and suggesting changes)
   github_repo: https://github.com/Yonsei-Hwang-Lab/homepage_docsy
@@ -151,7 +151,7 @@ params:
     # add "hide_feedback: true" to the page's front matter.
     hide_feedback: true
     feedback:
-      enable: true
+      enable: false
       # The responses that the user sees after clicking "yes" (the page was helpful) or "no" (the page was not helpful).
       'yes': >-
         Glad to hear it! Please <a
@@ -174,7 +174,7 @@ params:
       - name: User mailing list
         url: <a href="mailto:bjhwang113@yuhs.ac">bjhwang113@yuhs.ac</a>
         icon: fa fa-envelope
-        desc: Discussion and help from your fellow users
+        desc: any questions on lab
     # Developer relevant links. These will show up on right side of footer and in the community page if you have one.
     developer:
       - name: GitHub
