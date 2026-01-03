@@ -40,7 +40,8 @@ jobs:
         uses: appleboy/ssh-action@v1.2.0
         with:
           host: ${{ secrets.EC2_HOST }}
-          username: ubuntus
+          username: ubuntu
+          port: ${{ secrets.EC2_PORT }}
           key: ${{ secrets.EC2_SSH_KEY }}
           script: |
             cd /srv/hwanglabyonsei
