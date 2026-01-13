@@ -29,7 +29,7 @@ first_and_corresponding:
       title: "SCITO-seq2: Ultra-high-throughput single-cell transcriptome and epitope sequencing"
       authors: "Su-Hyeon Lee*, Bo-Yeong Jin*, Cho-Rong Lee, Doo Ri Kim, Areum Shin, Sung-Gyoo Park, Yae-Jean Kim, Seong Heon Kim, Murim Choi#, Byungjin Hwang#"
       journal: "Genome Biology"
-      details: "In revision."
+      details: "Accepted."
       doi_url: ""
 
     - year: 2024
@@ -149,3 +149,4 @@ contributing_authors:
       journal: "PLOS ONE"
       details: "2015."
       doi_url: "https://doi.org/10.1371/journal.pone.0126706"
+
