@@ -8,8 +8,8 @@
 {{- if $items }}
    <div class="row news-onecol">
     {{- range $item := $items }}
-      <div class="col-10 mb-4">
-        <div class="td-box h-100 p-4">
+      <div class="col-12 MB-4">
+        <div class="td-box td-box--gray h-100 p-4">
           {{- with $item.title }}
             <h4 class="mb-2">{{ . }}</h4>
           {{- end }}
@@ -18,7 +18,7 @@
             <p class="text-muted small mb-2">{{ . }}</p>
           {{- end }}
 
-          {{- with $item.body }}
+          {{- with $item.short }}
             <div class="news-body">
               {{ . | markdownify }}
             </div>

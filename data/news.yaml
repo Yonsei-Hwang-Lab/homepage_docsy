@@ -1,33 +1,40 @@
 news:
   - title: "👋 Winter Interns"
+    short: "Hyunmin, Minchae, Eunjung and Eunsu joined the lab as interns!"
     body: "Hyunmin, Minchae, Eunjung and Eunsu joined the lab as interns!"
     date: "2025.12"
 
   - title: "🎉 [Grant] Bio & Medical Technology Development Program"
+    short: "We received the national grant from NRF for 5 years (2025-2029)!"
     body: "We received the national grant from NRF for 5 years (2025-2029)!"
     date: "2025.07"
   
   - title: "👋 Summer Interns"
+    short: "Jun Ho, Seoah, and Jihyun joined the lab as interns for MRC program!"
     body: "Jun Ho, Seoah, and Jihyun joined the lab as interns for MRC program!"
     date: "2025.07"
 
   - title: "📰 Interview Featured in Issue Maker"
-    body: "Professor Byungjin Hwang's interview was featured in the July issue! Read more →"
-    link: "http://www.issuemaker.kr/news/articleView.html?idxno=50901"
+    short: "Professor Byungjin Hwang's interview was featured in the July issue! Read more → http://www.issuemaker.kr/news/articleView.html?idxno=50901"
+    body: "Professor Byungjin Hwang's interview was featured in the July issue! Read more → http://www.issuemaker.kr/news/articleView.html?idxno=50901"
     date: "2025.07"
 
   - title: "🎉 [Grant] Medical Research Center (MRC)"
+    short: "We received the national grant from NRF (co-PI) for 7 years (2025-2032)!"
     body: "We received the national grant from NRF (co-PI) for 7 years (2025-2032)!"
     date: "2025.05"
 
   - title: "🏆 Best Poster Award at KSBMB-EMM"
+    short: "Congrats to Su-Hyeon and Seeun for the Best Poster Award at KSBMB-EMM winter conference!"
     body: "Congrats to Su-Hyeon and Seeun for the Best Poster Award at KSBMB-EMM winter conference!"
     date: "2025.01"
 
   - title: "🏆 Presentation Award"
+    short: "Congrats to Junha for the 2nd place Presentation Award at Biomedical Science Research Festival!"
     body: "Congrats to Junha for the 2nd place Presentation Award at Biomedical Science Research Festival!"
     date: "2024.12"
 
   - title: "🎉 [Grant] National Research Foundation (NRF)"
+    short: "We received the national grant from NRF (co-PI) for 5 years (2024-2029)!"
     body: "We received the national grant from NRF (co-PI) for 5 years (2024-2029)!"
     date: "2024.05"

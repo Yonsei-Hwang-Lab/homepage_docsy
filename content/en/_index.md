@@ -116,7 +116,7 @@ title: Hwang Lab
 
   <p class="fs-2 fw-bold mt-5 text-center">News </p></br>
 
-  {{< news limits = 10 >}}
+  {{< news_short limits = 10 >}}
   
   </div>
 </div>
