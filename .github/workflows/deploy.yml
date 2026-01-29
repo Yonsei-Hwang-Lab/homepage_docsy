@@ -45,4 +45,6 @@ jobs:
           key: ${{ secrets.EC2_SSH_KEY }}
           script: |
             cd /srv/hwanglabyonsei
+            docker stop hwanglab-web && docker rm hwanglab-web
+            docker pull rpendity/hwanglab-site
             docker compose up -d
