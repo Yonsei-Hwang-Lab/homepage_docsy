@@ -179,7 +179,7 @@ params:
     developer:
       - name: instagram
         url: https://www.instagram.com/hwang_lab_yonsei/
-        icon: fa fa-instagram
+        icon: fab fa-instagram
         desc: instagram for hwanglab
       - name: GitHub
         url: https://github.com/Yonsei-Hwang-Lab
