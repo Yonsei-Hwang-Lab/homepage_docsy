@@ -170,21 +170,26 @@ params:
 
   links:
     # End user relevant links. These will show up on left side of footer and in the community page if you have one.
-    user:
-      - name: User mailing list
-        url: <a href="mailto:bjhwang113@yuhs.ac">bjhwang113@yuhs.ac</a>
-        icon: fa fa-envelope
-        desc: any questions on lab
+    ##user:
+     # - name: User mailing list
+     #   url: <a href="mailto:bjhwang113@yuhs.ac">bjhwang113@yuhs.ac</a>
+     #   icon: fa fa-envelope
+     #   desc: any questions on lab
     # Developer relevant links. These will show up on right side of footer and in the community page if you have one.
     developer:
+      - name: instagram
+        url: https://www.instagram.com/hwang_lab_yonsei/
+        icon: fa fa-instagram
+        desc: instagram for hwanglab
       - name: GitHub
         url: https://github.com/Yonsei-Hwang-Lab
         icon: fab fa-github
         desc: github organization page
-#      - name: Mail
-#       url: https://example.org/mail
-#        icon: fa fa-envelope
-#        desc: Discuss development issues around the project
+      - name: Mail
+        url: bjhwang113 at yuhs.ac
+        icon: fa fa-envelope
+        desc: Discuss development issues around the project
+
 
 module:
   # Uncomment the next line to build and serve using local docsy clone declared in the named Hugo workspace:
