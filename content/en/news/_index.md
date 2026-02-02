@@ -6,3 +6,5 @@ menu:
 ---
 
 {{< news >}}
+
+### For more information, please see the icons below.

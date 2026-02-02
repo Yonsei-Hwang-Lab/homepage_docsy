@@ -186,10 +186,9 @@ params:
         icon: fab fa-github
         desc: github organization page
       - name: Mail
-        url: bjhwang113 at yuhs.ac
+        url: <a href="mailto:bjhwang113 at yuhs.ac">bjhwang113 at yuhs.ac</a>
         icon: fa fa-envelope
-        desc: Discuss development issues around the project
-
+        desc: contact
 
 module:
   # Uncomment the next line to build and serve using local docsy clone declared in the named Hugo workspace:
