@@ -33,7 +33,7 @@ title: Hwang Lab
   .about-video-bg__overlay {
     position: relative;
     z-index: 1;
-    background: rgba(46, 46, 46, 0.61);
+    /* background: rgba(46, 46, 46, 0.61); */
     color: #fff; /* cover 안 텍스트 가독성용, 필요에 따라 조절 */
   }
   /* cover-block 배경 투명화 */
@@ -66,6 +66,8 @@ title: Hwang Lab
     border: 2px solid rgba(0, 0, 0, 0.52); /* 얇은 테두리 */
     border-radius: 10px;                    /* 부드러운 모서리 */
     backdrop-filter: blur(4px);             /* 유리 느낌 (선택) */
+    width: 80%;          /* 좌우 10%씩 남도록 */
+    margin: 0 auto;      /* 가운데 정렬 */
   }
 
   /* 카드 바깥 여백 */
