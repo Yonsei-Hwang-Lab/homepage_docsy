@@ -101,6 +101,13 @@ part_time_students:
     affiliation: "Underwood International College (UIC)"
     period: ""
     email: ""
+  - name_en: "Seyeon Yim"
+    name_ko: "임세연"
+    photo: "/images/member/parttime_student/Seyeon_Yim.jpg
+    position: "Research Associate"
+    affiliation: "College of liberal arts"
+    period: ""
+    email: ""
 
 alumni:
   ms_graduates:
