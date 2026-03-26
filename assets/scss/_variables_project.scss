@@ -2,121 +2,25 @@
 Projects can override this file. For details, see:
 https://www.docsy.dev/docs/content/lookandfeel/#project-style-files
 */
-/* Member Photo Wrapper (circle crop + responsive size) */
-.member-photo {
-  --photo-size: 180px;
 
-  width: var(--photo-size);
-  height: var(--photo-size);
-  margin: 0 auto 1rem;
+// Brand colors
+$primary: #00143a;
+$secondary: #87ceeb;
 
-  border-radius: 50%;
-  overflow: hidden;
+// Supporting palette
+$info: #87ceeb;
+$dark: #0e141f;
+$light: #e5f3ff;
 
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-  /* optional subtle border / glow */
-  border: 2px solid rgba(255, 255, 255, 0.25);
-  box-shadow: 0 4px 14px rgba(90, 90, 90, 0.25);
-}
-
-/* Image inside circle */
-.member-photo img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;     /* 얼굴 중심 크롭 */
-  object-position: center top;
-
-  /* prevent distortion */
-  aspect-ratio: 1 / 1;
-}
-
-
-
-.members-grid-1col {
-  grid-template-columns: 1fr;
-  max-width: 400px;
-  margin: 0 auto 3rem;
-}
-
-.members-grid-2col {
-  grid-template-columns: repeat(2, minmax(260px, 1fr));
-  max-width: 900px;
-  margin: 0 auto 3rem;
-}
-
-@media (max-width: 768px) {
-  .members-grid-2col {
-    grid-template-columns: 1fr;
-  }
-}
-
-
-.photos-grid {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 1.5rem;
-}
-
-@media (max-width: 768px) {
-  .photos-grid {
-    grid-template-columns: 1fr;
-  }
-}
-만약 지금 CS
-
-.photo-item {
-  max-width: 600px;
-  margin: 0 auto 1rem;
-
-  /* 크롭 방지 */
-  overflow: visible;
-
-  /* 선택 사항: 레이아웃 정렬 */
-  display: block;
-
-  /* optional subtle border / glow */
-  border: 2px solid rgba(255, 255, 255, 0.25);
-  box-shadow: 0 4px 14px rgba(90, 90, 90, 0.25);
-}
-
-/* 내부 이미지가 비율 유지하며 컨테이너에 맞게 축소 */
-.photo-item img {
-  width: 100%;
-  height: auto;
-  object-fit: contain;
-}
-
-/* --- Responsive resizing --- */
-@media (max-width: 640px) {
-  .member-photo { --photo-size: 120px; }
-}
-
-@media (min-width: 1280px) {
-  .member-photo { --photo-size: 160px; }
-}
-
-
-// 브랜드 컬러
-$primary:   #00143a;   // Yonsei 느낌의 딥 네이비 (기존 nav 배경)
-$secondary: #87CEEB;   // 포인트 하이라이트 (링크/active 탭 등)
-
-// 보조 팔레트 (원하면)
-$info:      #87CEEB;
-$dark:      #0e141f;   // 아주 짙은 남색/남청 배경
-$light:     #e5f3ff;   // 연한 블루 톤 배경
-
-// 텍스트 / 링크
-$body-bg:    #0e141f;       // Docsy 기본은 라이트 모드가 자연스러움
-$body-color: #E5E9F0;
-$headings-color: #FFFFFF; // 제목은 순백에 가깝게
-$link-color: $secondary;  // #87CEEB
+// Text and links
+$body-bg: #0e141f;
+$body-color: #e5e9f0;
+$headings-color: #ffffff;
+$link-color: $secondary;
 $link-hover-color: lighten($secondary, 10%);
 
-// Navbar (Bootstrap 변수)
-$navbar-dark-bg:   $primary;
-$navbar-dark-color:    #ffffff;
+// Navbar
+$navbar-dark-bg: $primary;
+$navbar-dark-color: #ffffff;
 $navbar-dark-hover-color: $secondary;
 $navbar-dark-active-color: $secondary;

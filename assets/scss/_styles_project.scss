@@ -8,6 +8,86 @@ https://www.docsy.dev/docs/content/lookandfeel/#project-style-files
 @import 'td/code-dark';
 @import 'td/gcs-search-dark';
 
+.members-grid {
+  display: grid;
+  gap: 2rem;
+}
+
+.members-grid-1col {
+  grid-template-columns: 1fr;
+  max-width: 400px;
+  margin: 0 auto 3rem;
+}
+
+.members-grid-2col {
+  grid-template-columns: repeat(2, minmax(260px, 1fr));
+  max-width: 900px;
+  margin: 0 auto 3rem;
+}
+
+.member-photo {
+  --photo-size: 180px;
+
+  width: var(--photo-size);
+  height: var(--photo-size);
+  margin: 0 auto 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  border: 2px solid rgba(255, 255, 255, 0.25);
+  border-radius: 50%;
+  box-shadow: 0 4px 14px rgba(90, 90, 90, 0.25);
+}
+
+.member-photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center top;
+  aspect-ratio: 1 / 1;
+}
+
+.photos-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+}
+
+.photo-item {
+  max-width: 600px;
+  margin: 0 auto 1rem;
+  display: block;
+  overflow: visible;
+  border: 2px solid rgba(255, 255, 255, 0.25);
+  box-shadow: 0 4px 14px rgba(90, 90, 90, 0.25);
+}
+
+.photo-item img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+@media (max-width: 768px) {
+  .members-grid-2col,
+  .photos-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 640px) {
+  .member-photo {
+    --photo-size: 120px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .member-photo {
+    --photo-size: 160px;
+  }
+}
+
 .td-main {
   padding-top: 4rem !important;   // 원하는 값으로 변경 가능
 }
@@ -39,4 +119,3 @@ https://www.docsy.dev/docs/content/lookandfeel/#project-style-files
     }
   }
 }
-
