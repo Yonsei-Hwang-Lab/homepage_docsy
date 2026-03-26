@@ -35,8 +35,9 @@
 
   {{/* Postdoctoral Scholars */}}
   {{ with site.Data.members.postdoctoral_scholars }}
+    <div class="members-section members-section-postdoc">
     <h3 class="member-category">Postdoctoral Scholars</h3>
-    <div class="members-grid">
+    <div class="members-grid members-grid-1col">
       {{ range $i, $m := . }}
         <div class="member-card">
           <div class="member-photo">
@@ -50,12 +51,15 @@
         </div>
       {{ end }}
     </div>
+    </div>
   {{ end }}
 
   {{/* Graduate Students */}}
   {{ with site.Data.members.graduate_students }}
+  
+    <div class="members-section members-section-grad">
     <h3 class="member-category">Graduate Students</h3>
-    <div class="members-grid">
+    <div class="members-grid members-grid-2col">
       {{ range $i, $m := . }}
         <div class="member-card">
           <div class="member-photo">
@@ -68,13 +72,14 @@
           <div class="member-role">{{ $m.affiliation }}{{ if $m.period }} ({{ $m.period }}){{ end }}</div>
         </div>
       {{ end }}
+    </div>
     </div>
   {{ end }}
 
   {{/* Part-time Students */}}
   {{ with site.Data.members.part_time_students }}
     <h3 class="member-category">Part-time Students</h3>
-    <div class="members-grid">
+    <div class="members-grid members-grid-2col">  
       {{ range $i, $m := . }}
         <div class="member-card">
           <div class="member-photo">
@@ -122,3 +127,21 @@
     </div>
   {{ end }}
 </div>
+
+.members-grid-1col {
+  grid-template-columns: 1fr;
+  max-width: 400px;
+  margin: 0 auto 3rem;
+}
+
+.members-grid-2col {
+  grid-template-columns: repeat(2, minmax(260px, 1fr));
+  max-width: 900px;
+  margin: 0 auto 3rem;
+}
+
+@media (max-width: 768px) {
+  .members-grid-2col {
+    grid-template-columns: 1fr;
+  }
+}

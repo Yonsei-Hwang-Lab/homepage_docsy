@@ -33,6 +33,20 @@ https://www.docsy.dev/docs/content/lookandfeel/#project-style-files
   aspect-ratio: 1 / 1;
 }
 
+
+.photos-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+}
+
+@media (max-width: 768px) {
+  .photos-grid {
+    grid-template-columns: 1fr;
+  }
+}
+만약 지금 CS
+
 .photo-item {
   max-width: 600px;
   margin: 0 auto 1rem;
