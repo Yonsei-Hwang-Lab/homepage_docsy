@@ -127,21 +127,3 @@
     </div>
   {{ end }}
 </div>
-
-.members-grid-1col {
-  grid-template-columns: 1fr;
-  max-width: 400px;
-  margin: 0 auto 3rem;
-}
-
-.members-grid-2col {
-  grid-template-columns: repeat(2, minmax(260px, 1fr));
-  max-width: 900px;
-  margin: 0 auto 3rem;
-}
-
-@media (max-width: 768px) {
-  .members-grid-2col {
-    grid-template-columns: 1fr;
-  }
-}
