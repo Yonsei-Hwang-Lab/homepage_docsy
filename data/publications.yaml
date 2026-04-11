@@ -5,14 +5,14 @@ first_and_corresponding:
       title: "Blood-Based Single-Cell and Bulk RNA sequencing Identifies CAD-Driven CD4+T Cell Dysfunction in Aggressive Small Clear Cell Renal Carcinoma"
       authors: "Eunchae Kim*, Jee Soo Park*, Seol Song, Se-eun Han, Byungjin Hwang#, Won Sik Ham#"
       journal: "International Journal of Surgery"
-      details: "In revision."
+      details: "Aceepted"
       doi_url: ""
     - year: 2025
       title: "Paired snRNA-seq and scRNA-seq analysis of MASLD patients to identify early-stage markers for disease progression"
       authors: "Suebin Park*, Su-Hyeon Lee, Se-eun Han, Beom Kyung Kim#, Byungjin Hwang#"
       journal: "Hepatology Communications"
       details: "2025."
-      doi_url: ""
+      doi_url: "https://doi.org/10.1097/hc9.0000000000000820"
     - year: 2025
       title: "Integrated single-cell multiomics analysis reveals the signatures of brain aging in mice"
       authors: "Se-eun Han*, Hyunjeong Kim*, Jieun Song, Dabin Song, Soyeon Cho, Changsoo Kim, Eosu Kim#, Byungjin Hwang#"
@@ -29,15 +29,15 @@ first_and_corresponding:
       title: "SCITO-seq2: Ultra-high-throughput single-cell transcriptome and epitope sequencing"
       authors: "Su-Hyeon Lee*, Bo-Yeong Jin*, Cho-Rong Lee, Doo Ri Kim, Areum Shin, Sung-Gyoo Park, Yae-Jean Kim, Seong Heon Kim, Murim Choi#, Byungjin Hwang#"
       journal: "Genome Biology"
-      details: "Accepted."
-      doi_url: ""
+      details: "2026."
+      doi_url: "https://doi.org/10.1186/s13059-026-03954-x"
 
     - year: 2024
       title: "Multiplexed multi-modal single cell technologies: From observation to perturbation analysis"
       authors: "Su-Hyeon Lee, Junha Park, Byungjin Hwang#"
       journal: "Molecules and Cells"
       details: "2024."
-      doi_url: ""
+      doi_url: "https://doi.org/10.1016/j.mocell.2024.100147"
     - year: 2024
       title: "T-Cell Dynamics Predicts Prognosis of Patients with Hepatocellular Carcinoma Receiving Atezolizumab Plus Bevacizumab"
       authors: "Hye Won Lee*, Suebin Park*, Hye Jung Park, Kyung Joo Cho, Do Young Kim#, Byungjin Hwang#, Jun Yong Park"
