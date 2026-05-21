@@ -13,13 +13,7 @@ principal_investigator:
     - "Postdoc, IHG, UCSF (2019–2022) - Single-cell Omics and CRISPR screening"
 
 postdoctoral_scholars:
-  - name_en: "Su-Hyeon Lee"
-    name_ko: "이수현"
-    photo: "/images/member/postdoc/suhyeon_lee.jpg"
-    position: "Postdoctoral Scholar"
-    affiliation: "Dept. of Medical Science"
-    period: "Mar 2023 ~"
-    email: ""
+
   - name_en: "Hyungtai Sim"
     name_ko: "심형태"
     photo: "/images/member/postdoc/hyungtai_sim.png"
@@ -103,6 +97,9 @@ part_time_students:
     email: ""
 
 alumni:
+  postdocs:
+    - name_en: "Su-Hyeon Lee"
+      next_affiliation: "Postdoc at NIH"
   ms_graduates:
     - name: "Seeun Han"
       degree: "M.S."

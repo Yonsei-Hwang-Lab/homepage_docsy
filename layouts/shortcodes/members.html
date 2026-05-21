@@ -103,6 +103,17 @@
   {{ with site.Data.members.alumni }}
     <h3 class="member-category">Alumni</h3>
     <div style="max-width: 800px; margin: 0 auto; background: rgba(255, 255, 255, 0.1); padding: 2rem; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.2); border: 1px solid rgba(255, 255, 255, 0.2); backdrop-filter: blur(10px);">
+      {{ with .postdocs }}
+        <div style="margin-bottom: 1.5rem;">
+          <strong style="color: #87CEEB;">Postdoc</strong>
+          <p style="color: rgba(255, 255, 255, 0.8); margin-top: 0.5rem; line-height: 2;">
+            {{ range . }}
+              {{ .name }}{{ if .next_affiliation }} → {{ .next_affiliation }}{{ end }}<br>
+            {{ end }}
+          </p>
+        </div>
+      {{ end }}
+
       {{ with .ms_graduates }}
         <div style="margin-bottom: 1.5rem;">
           <strong style="color: #87CEEB;">M.S. Graduate</strong>
