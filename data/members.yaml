@@ -98,7 +98,7 @@ part_time_students:
 
 alumni:
   postdocs:
-    - name_en: "Su-Hyeon Lee"
+    - name: "Su-Hyeon Lee"
       next_affiliation: "Postdoc at NIH"
   ms_graduates:
     - name: "Seeun Han"
