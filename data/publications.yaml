@@ -1,12 +1,18 @@
 first_and_corresponding:
   description: "* Co-first authorship   # Corresponding authorship"
   items:
+    - year: 2026
+      title: "Integrated single-nucleus and bulk transcriptomics reveal a hepatocyte p62–GLIS3 axis in MASH progression"
+      authors: "Da Hyun Lee, Su-Hyeon Lee, Da Ye Kim, Yu Seol Lee, Ji Yun Bang, Dai Hoon Han, Byungjin Hwang, Soo Han Bae"
+      journal: ""
+      details: "Submitted"
+      doi_url: ""
     - year: 2025
       title: "Blood-Based Single-Cell and Bulk RNA sequencing Identifies CAD-Driven CD4+T Cell Dysfunction in Aggressive Small Clear Cell Renal Carcinoma"
       authors: "Eunchae Kim*, Jee Soo Park*, Seol Song, Se-eun Han, Byungjin Hwang#, Won Sik Ham#"
       journal: "International Journal of Surgery"
-      details: "Aceepted"
-      doi_url: ""
+      details: "2026."
+      doi_url: "DOI: 10.1097/JS9.0000000000005359"
     - year: 2025
       title: "Paired snRNA-seq and scRNA-seq analysis of MASLD patients to identify early-stage markers for disease progression"
       authors: "Suebin Park*, Su-Hyeon Lee, Se-eun Han, Beom Kyung Kim#, Byungjin Hwang#"
