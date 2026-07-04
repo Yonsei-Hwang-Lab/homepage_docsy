@@ -1,11 +1,19 @@
 photos:
+  - year: 2026
+    image: "/images/lab_photos/2026_AACR.jpg"
+    alt: "2026 AACR"
+    caption: "2026 AACR conference @ SD"
+    event: "2026 AACR"
+    location: "San diego"
+    order: 1
+
   - year: 2025
     image: "/images/lab_photos/2025_ksbmb_emm.jpg"
     alt: "2025 KSBMB-EMM"
     caption: "2025 KSBMB-EMM winter conference @Hongcheon"
     event: "KSBMB-EMM winter conference"
     location: "Hongcheon"
-    order: 1
+    order: 2
 
   - year: 2025
     image: "/images/lab_photos/2025_faobmb.jpg"
@@ -13,7 +21,7 @@ photos:
     caption: "2025 FAOBMB @Busan"
     event: "FAOBMB"
     location: "Busan"
-    order: 2
+    order: 3
 
   - year: 2025
     image: "/images/lab_photos/2025_busan_student.jpg"
@@ -21,7 +29,7 @@ photos:
     caption: "2025 FAOBMB @Busan"
     event: "FAOBMB"
     location: "Busan"
-    order: 3
+    order: 4
 
   - year: 2025
     image: "/images/lab_photos/2025_prof.jpg"
@@ -29,7 +37,7 @@ photos:
     caption: "2025 Teacher's Day @May"
     event: "Teacher's Day"
     location: ""
-    order: 4
+    order: 5
 
   - year: 2025
     image: "/images/lab_photos/2025_graduation.jpg"
@@ -37,7 +45,7 @@ photos:
     caption: "2025 Graduation Ceremony (Summer)"
     event: "Graduation Ceremony"
     location: ""
-    order: 5
+    order: 6
 
   - year: 2025
     image: "/images/lab_photos/2025_bioinfo.jpg"
@@ -45,4 +53,4 @@ photos:
     caption: "2025 BIOINFO @Suwon"
     event: "BIOINFO"
     location: "Suwon"
-    order: 6
+    order: 7
