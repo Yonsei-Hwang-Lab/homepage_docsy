@@ -2,6 +2,12 @@ first_and_corresponding:
   description: "* Co-first authorship   # Corresponding authorship"
   items:
     - year: 2026
+      title: "A genome-wide CRISPR activation map of surface protein expression in human CD4 T cells"
+      authors: "Yutong V. Wang, Junha Park, Min Cheol Kim, Thomas Mazumder, Krishna Sonpal, Matin Bikaran, Zachary Steinhart, Ralf Schmidt, Yang Sun, Su-Hyeon Lee, Alexander Marson, Jimmie Ye#, Byungjin Hwang#"
+      journal: "Nature Methods"
+      details: "In revision."
+      doi_url: ""
+    - year: 2026
       title: "Integrated single-nucleus and bulk transcriptomics reveal a hepatocyte p62–GLIS3 axis in MASH progression"
       authors: "Da Hyun Lee, Su-Hyeon Lee, Da Ye Kim, Yu Seol Lee, Ji Yun Bang, Dai Hoon Han, Byungjin Hwang, Soo Han Bae"
       journal: ""
@@ -22,14 +28,14 @@ first_and_corresponding:
     - year: 2025
       title: "Integrated single-cell multiomics analysis reveals the signatures of brain aging in mice"
       authors: "Se-eun Han*, Hyunjeong Kim*, Jieun Song, Dabin Song, Soyeon Cho, Changsoo Kim, Eosu Kim#, Byungjin Hwang#"
-      journal: "Aging Cell"
+      journal: "Scientific Reports"
       details: "In revision."
       doi_url: ""
     - year: 2025
       title: "Integrative Single-Cell RNA-seq and TCR Repertoire Analysis Reveals Distinct Immunological Features of Acute Liver Allograft Rejection"
       authors: "Su-Hyeon Lee*, Deok-Gie Kim*, Yuri Cho, Eun-Ki Min, Jae Geun Lee, Myoung Soo Kim, Suebin Park, Byungjin Hwang#, Dong Jin Joo#"
       journal: "Genome Medicine"
-      details: "In revision."
+      details: "Accepted."
       doi_url: ""
     - year: 2025
       title: "SCITO-seq2: Ultra-high-throughput single-cell transcriptome and epitope sequencing"
