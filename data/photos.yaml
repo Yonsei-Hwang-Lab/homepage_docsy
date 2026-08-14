@@ -16,7 +16,7 @@ photos:
     order: 2
 
   - year: 2025
-    image: "/images/lab_photos/2025_faobmb.jpg"
+    image: "/images/lab_photos/2025_faobmb2.jpg"
     alt: "2025 FAOBMB"
     caption: "2025 FAOBMB @Busan"
     event: "FAOBMB"
@@ -24,7 +24,7 @@ photos:
     order: 3
 
   - year: 2025
-    image: "/images/lab_photos/2025_busan_student.jpg"
+    image: "/images/lab_photos/2025_faobmb1.jpg"
     alt: "2025 Busan Student"
     caption: "2025 FAOBMB @Busan"
     event: "FAOBMB"
