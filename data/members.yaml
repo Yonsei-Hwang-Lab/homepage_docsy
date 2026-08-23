@@ -7,7 +7,11 @@ principal_investigator:
   period: "2022.9 ~ present"
   email: "bjhwang113 at yuhs.ac"
   office: "02-2228-0877"
-  education:
+  professional experience:
+    - "Bioinformatics Core Director, Avinson BioMedcial Research Center (2026~)"
+    - "Visiting Scholar, Univ. of Michigan, Ann Arbor (2022.6~8)
+    - "Postdoc, Institute for Human Genetics, UCSF (2019–2022)
+  education & training:
     - "B.S., Dept. of Chemistry, Yonsei University (2013)"
     - "Ph.D., Dept. of Chemistry, Yonsei University (2018) - Bioinformatics and Synthetic Biology"
     - "Postdoc, Institute for Human Genetics, UCSF (2019–2022) - Single-cell Omics and CRISPR screening"
@@ -81,17 +85,18 @@ part_time_students:
     affiliation: "College of liberal arts/Dept. of Biochemistry"
     period: ""
     email: ""
-  - name_en: "Myungseo Kim"
-    name_ko: "김명서"
-    position: "Research Associate"
-    affiliation: "Division of Pharamacy"
-    period: ""
-    email: ""
   - name_en: "Subin Eun"
     name_ko: "은수빈"
     photo: "/images/member/parttime_student/Subin_Eun.jpg"
     position: "Research Associate"
     affiliation: "College of Medicine"
+    period: ""
+    email: ""
+  - name_en: "Hayeon Shin"
+    name_ko: "신하연"
+    photo: "/images/member/parttime_student/Hayeon_Shin.jpg"
+    position: "Research Associate"
+    affiliation: "Dept. of Genetics and Biotechnology"
     period: ""
     email: ""
 
@@ -136,5 +141,5 @@ alumni:
       note: ""
     - name: "Sangyeon Moon"
       note: ""
-    - name: "Minchae_Kang"
+    - name: "Myungseo Kim"
       note: ""
