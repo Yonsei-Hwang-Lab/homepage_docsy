@@ -1,48 +1,62 @@
 first_and_corresponding:
   description: "* Co-first authorship   # Corresponding authorship"
   items:
-    - year: 2026
-      title: "A genome-wide CRISPR activation map of surface protein expression in human CD4 T cells"
-      authors: "Yutong V. Wang, Junha Park, Min Cheol Kim, Thomas Mazumder, Krishna Sonpal, Matin Bikaran, Zachary Steinhart, Ralf Schmidt, Yang Sun, Su-Hyeon Lee, Alexander Marson, Jimmie Ye#, Byungjin Hwang#"
-      journal: "Nature Methods"
-      details: "In revision."
-      doi_url: ""
-    - year: 2026
+    - year: 2027
       title: "Integrated single-nucleus and bulk transcriptomics reveal a hepatocyte p62–GLIS3 axis in MASH progression"
-      authors: "Da Hyun Lee, Su-Hyeon Lee, Da Ye Kim, Yu Seol Lee, Ji Yun Bang, Dai Hoon Han, Byungjin Hwang, Soo Han Bae"
+      authors: "Da Hyun Lee*, Su-Hyeon Lee*, Da Ye Kim, Yu Seol Lee, Ji Yun Bang, Dai Hoon Han, Byungjin Hwang#, Soo Han Bae#"
       journal: ""
       details: "Submitted"
       doi_url: ""
-    - year: 2025
+    - year: 2027
+      title: "Gene-level structure of prior knowledge and perturbation responses informs perturbation-specific predictability in prior-informed models"
+      authors: "Junha Park*, Hyungtai Sim*, Byungjin Hwang#"
+      journal: ""
+      details: "Submitted"
+      doi_url: ""
+    - year: 2026
+      title: "A genome-wide CRISPR activation map of surface protein expression in human CD4 T cells"
+      authors: "Yutong V. Wang, Junha Park, Min Cheol Kim, Thomas Mazumder, Krishna Sonpal, Matin Bikaran, Zachary Steinhart, Ralf Schmidt, Yang Sun, Su-Hyeon Lee, Alexander Marson, Jimmie Ye#, Byungjin Hwang#"
+      journal: ""
+      details: "In revision."
+      doi_url: ""
+    - year: 2026
+      title: "Divergent temporal and spatial regulatory T cell reconstitution following post-transplantation cyclophosphamide or antithymocyte globulin in HLA-matched allogeneic hematopoietic cell transplantation"
+      authors: "Eun-ji Choi*, Youngmin Song*, Eun Chae Kim*, Hyeok Gi Oh, Jaesung Huh, A yeong Lee, Dawoon Han, Eun-Hye Hur, Pilkwon Kang, Joon Min Jung, Woo Jin Lee, Hyunkyung Park, Joon Young Hur, Yunsuk Choi, Jung-Hee Lee, Je-Hwan Lee, Byungjin Hwang#, Christopher G. Kanakry#, Jong Hoon Kim#"
+      journal: ""
+      details: "In revision"
+      doi_url: ""
+    - year: 2026
+      title: "Integrated single-cell multiomics analysis reveals the signatures of brain aging in mice"
+      authors: "Se-eun Han*, Hyunjeong Kim*, Jieun Song, Dabin Song, Soyeon Cho, Changsoo Kim, Eosu Kim#, Byungjin Hwang#"
+      journal: ""
+      details: "In revision."
+      doi_url: ""
+    - year: 2026
       title: "Blood-Based Single-Cell and Bulk RNA sequencing Identifies CAD-Driven CD4+T Cell Dysfunction in Aggressive Small Clear Cell Renal Carcinoma"
       authors: "Eunchae Kim*, Jee Soo Park*, Seol Song, Se-eun Han, Byungjin Hwang#, Won Sik Ham#"
       journal: "International Journal of Surgery"
       details: "2026."
       doi_url: "DOI: 10.1097/JS9.0000000000005359"
+    - year: 2026
+      title: "Integrative Single-Cell RNA-seq and TCR Repertoire Analysis Reveals Distinct Immunological Features of Acute Liver Allograft Rejection"
+      authors: "Su-Hyeon Lee*, Deok-Gie Kim*, Yuri Cho, Eun-Ki Min, Jae Geun Lee, Myoung Soo Kim, Suebin Park, Byungjin Hwang#, Dong Jin Joo#"
+      journal: "Genome Medicine"
+      details: "2026.."
+      doi_url: "https://doi.org/10.1186/s13073-026-01753-4"
+    - year: 2026
+      title: "SCITO-seq2: Ultra-high-throughput single-cell transcriptome and epitope sequencing"
+      authors: "Su-Hyeon Lee*, Bo-Yeong Jin*, Cho-Rong Lee, Doo Ri Kim, Areum Shin, Sung-Gyoo Park, Yae-Jean Kim, Seong Heon Kim, Murim Choi#, Byungjin Hwang#"
+      journal: "Genome Biology"
+      details: "2026."
+      doi_url: "https://doi.org/10.1186/s13059-026-03954-x"
     - year: 2025
       title: "Paired snRNA-seq and scRNA-seq analysis of MASLD patients to identify early-stage markers for disease progression"
       authors: "Suebin Park*, Su-Hyeon Lee, Se-eun Han, Beom Kyung Kim#, Byungjin Hwang#"
       journal: "Hepatology Communications"
       details: "2025."
       doi_url: "https://doi.org/10.1097/hc9.0000000000000820"
-    - year: 2025
-      title: "Integrated single-cell multiomics analysis reveals the signatures of brain aging in mice"
-      authors: "Se-eun Han*, Hyunjeong Kim*, Jieun Song, Dabin Song, Soyeon Cho, Changsoo Kim, Eosu Kim#, Byungjin Hwang#"
-      journal: "Scientific Reports"
-      details: "In revision."
-      doi_url: ""
-    - year: 2025
-      title: "Integrative Single-Cell RNA-seq and TCR Repertoire Analysis Reveals Distinct Immunological Features of Acute Liver Allograft Rejection"
-      authors: "Su-Hyeon Lee*, Deok-Gie Kim*, Yuri Cho, Eun-Ki Min, Jae Geun Lee, Myoung Soo Kim, Suebin Park, Byungjin Hwang#, Dong Jin Joo#"
-      journal: "Genome Medicine"
-      details: "Accepted."
-      doi_url: ""
-    - year: 2025
-      title: "SCITO-seq2: Ultra-high-throughput single-cell transcriptome and epitope sequencing"
-      authors: "Su-Hyeon Lee*, Bo-Yeong Jin*, Cho-Rong Lee, Doo Ri Kim, Areum Shin, Sung-Gyoo Park, Yae-Jean Kim, Seong Heon Kim, Murim Choi#, Byungjin Hwang#"
-      journal: "Genome Biology"
-      details: "2026."
-      doi_url: "https://doi.org/10.1186/s13059-026-03954-x"
+
+
 
     - year: 2024
       title: "Multiplexed multi-modal single cell technologies: From observation to perturbation analysis"
@@ -113,6 +127,12 @@ first_and_corresponding:
 
 contributing_authors:
   items:
+    - year: 2026
+      title: "Protective Effects of MASLD in Chronic Hepatitis B Patients on the Risk for Liver Disease Progression"
+      authors: "Kunhee Kim, Jiwon Yang, Se-eun Han, Byungjin Hwang, Jonggi Choi, Hye Won Lee#"
+      journal: ""
+      details: "In revision"
+      doi_url: ""
     - year: 2025
       title: "Exercise alters transcriptional profiles of senescence and gut barrier integrity in intestinal crypts of aging mice"
       authors: "Jeon H, Lee S, Kim Y, ... Han SE, Hwang B, Kim JW, Oh CM*, Fang S*"
