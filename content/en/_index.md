@@ -102,7 +102,7 @@ title: Hwang Lab
   {{% blocks/cover title="HWANG LAB @ YONSEI" image_anchor="top" height="med"  %}}
 
   <p class="fs-4 fw-semibold mt-5">EVERY CELL IS SPECIAL :) </p>
-  <p class="lead mt-5">Department of Medical Science, Yonsei University College of Medicine</p>
+  <p class="lead mt-5">Department of Biomedical Sciences, Yonsei University College of Medicine</p>
 
   {{% /blocks/cover %}}
   
